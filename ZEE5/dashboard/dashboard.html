@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZEE5&nbsp;-&nbsp;Watch Tv Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="../imgae/ZEE5_logo.svg" />
+    <link
+      rel="stylesheet"
+      href="../fontAwesome/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="./dashboard.css" />
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="header w-100 d-flex justify-content-between">
+        <div class="logo_menu d-flex">
+          <div class="logo">
+            <img src="../imgae/logo.jpg" alt="" />
+          </div>
+          <div class="menu">
+            <ul class="sub_menu">
+              <li><a href="#" class="demo">Home</a></li>
+              <li><a href="#" class="demo">TV&nbsp;Shows</a></li>
+              <li><a href="#" class="demo">Movies</a></li>
+              <li><a href="#" class="demo">Premium</a></li>
+              <li><a href="#" class="demo">Web&nbsp;Series</a></li>
+              <li><a href="#" class="demo">News</a></li>
+              <li><a href="#" class="demo">Edauraa</a></li>
+              <li><a href="#" class="demo">Live&nbsp;TV</a></li>
+              <li><a href="#" class="demo">Music</a></li>
+              <li>
+                <a href="#" class="demo"
+                  ><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="peta_menu">
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Kid</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Chennels</a></li>
+                  </ul>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="action_side d-flex">
+          <div class="search w-100 d-flex">
+            <div class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="Search for Movies,Shows,Channles etc."
+              class="rounded-2"
+            />
+          </div>
+          <div class="font">
+            <a href="#"> <i class="fa-solid fa-a"></i></a>
+          </div>
+          <div class="login_btn">
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              onclick="onLogin()"
+            >
+              Login
+            </button>
+          </div>
+          <div class="plan_btn">
+            <button type="button" class="btn d-flex gap-1 buy_btn text-light">
+              <span><i class="fa-solid fa-crown"></i></span>
+              Buy&nbsp;Plans
+            </button>
+          </div>
+          <div class="bar">
+            <a href="#"> <i class="fa-solid fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="owl-carousel mt-3 h-100">
+      <div class="carausol_img">
+        <img src="../imgae/gadar.webp" alt="" />
+        <div class="caraousal_body">
+          <div class="title">
+            <p>Gadar: Ek Prem Katha</p>
+          </div>
+          <div class="watch_btn d-flex gap-4">
+            <div class="watch">
+              <div class="login_btn">
+                <button type="button" class="btn btn-outline-light">
+                  <span><i class="fa-solid fa-play"></i></span>
+                  Watch
+                </button>
+              </div>
+            </div>
+            <div class="buy">
+              <div class="plan_btn">
+                <button
+                  type="button"
+                  class="btn d-flex gap-1 buy_btn text-light"
+                >
+                  <span><i class="fa-solid fa-crown"></i></span>
+                  Buy&nbsp;Plans
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carausol_img">
+        <img src="../imgae/HADDI.webp" alt="" />
+        <div class="caraousal_body">
+          <div class="title">
+            <p>Haddi</p>
+          </div>
+          <div class="watch_btn d-flex gap-4">
+            <div class="watch">
+              <div class="login_btn">
+                <button type="button" class="btn btn-outline-light">
+                  <span><i class="fa-solid fa-play"></i></span>
+                  Watch
+                </button>
+              </div>
+            </div>
+            <div class="buy">
+              <div class="plan_btn">
+                <button
+                  type="button"
+                  class="btn d-flex gap-1 buy_btn text-light"
+                >
+                  <span><i class="fa-solid fa-crown"></i></span>
+                  Buy&nbsp;Plans
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carausol_img">
+        <img src="../imgae/poster3.webp" alt="" />
+        <div class="caraousal_body">
+          <div class="title">
+            <p>Sirf ek banda kafi hai</p>
+          </div>
+          <div class="watch_btn d-flex gap-4">
+            <div class="watch">
+              <div class="login_btn">
+                <button type="button" class="btn btn-outline-light">
+                  <span><i class="fa-solid fa-play"></i></span>
+                  Watch
+                </button>
+              </div>
+            </div>
+            <div class="buy">
+              <div class="plan_btn">
+                <button
+                  type="button"
+                  class="btn d-flex gap-1 buy_btn text-light"
+                >
+                  <span><i class="fa-solid fa-crown"></i></span>
+                  Buy&nbsp;Plans
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carausol_img">
+        <img src="../imgae/poster4.webp" alt="" />
+        <div class="caraousal_body">
+          <div class="title">
+            <p>The Kashmir Files</p>
+          </div>
+          <div class="watch_btn d-flex gap-4">
+            <div class="watch">
+              <div class="login_btn">
+                <button type="button" class="btn btn-outline-light">
+                  <span><i class="fa-solid fa-play"></i></span>
+                  Watch
+                </button>
+              </div>
+            </div>
+            <div class="buy">
+              <div class="plan_btn">
+                <button
+                  type="button"
+                  class="btn d-flex gap-1 buy_btn text-light"
+                >
+                  <span><i class="fa-solid fa-crown"></i></span>
+                  Buy&nbsp;Plans
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="direction_btn">
+      <span><i class="fa-solid fa-chevron-left"></i></span>
+    </div>
+    <div class="direction_btn1">
+      <span><i class="fa-solid fa-chevron-right"></i></span>
+    </div>
+
+    <div class="trending">
+      <div class="trending_card d-flex justify-content-between">
+        <div class="trending_title">
+          <h5>Trending Near You</h5>
+        </div>
+        <div class="more_btn">
+          <a href="#"
+            >More <span><i class="fa-solid fa-chevron-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie_card mt-2 mb-3">
+      <div class="row_1 gap-4 items" id="trending_bar"></div>
+    </div>
+    <div class="top_movie mt-3">
+      <div class="trending1">
+        <div class="trending_card d-flex justify-content-between">
+          <div class="trending_title">
+            <h5>Top 10 Movies in India</h5>
+          </div>
+          <div class="more_btn">
+            <a href="#"
+              >More <span><i class="fa-solid fa-chevron-right"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="movie_card_1 mt-2 mb-3">
+        <div class="row_2 gap-4 items" id="trending_bar1">
+          <!-- <div class="number_card">
+            <div class="number">
+              <span>1</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card1.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>2</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card2.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>3</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card3.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>4</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card4.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>5</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card5.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>6</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card6.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>7</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card7.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>8</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card8.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="number_card">
+            <div class="number">
+              <span>9</span>
+            </div>
+            <div class="card_img rounded-3">
+              <div class="card_front">
+                <img src="../imgae/card9.webp" alt="" />
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="trending mt-3">
+      <div class="trending_card d-flex justify-content-between">
+        <div class="trending_title">
+          <h5>Explore In Your Language</h5>
+        </div>
+        <div class="more_btn">
+          <a href="#"
+            >More <span><i class="fa-solid fa-chevron-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="language mb-5">
+      <div class="lanuage_card" id="language">
+        <div class="card">
+          <img src="../imgae/lan.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/lan1.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/lan2.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/lan3.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="trending mt-3">
+      <div class="trending_card d-flex justify-content-between">
+        <div class="trending_title">
+          <h5>Hidden Gems on ZEE5</h5>
+        </div>
+        <div class="more_btn">
+          <a href="#"
+            >More <span><i class="fa-solid fa-chevron-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="Hiden_card mb-5">
+      <div class="Hiden_card" id="hidden_card">
+        <div class="card">
+          <img src="../imgae/11.webp" alt="" />
+          <!-- <div class="img_hover">
+            <div class="card_back">
+              <div class="back_card_img">
+                <img src="${element.img}" alt="" />
+              </div>
+              <div class="back_card_title">
+                <p>${element.name}</p>
+              </div>
+              <div class="back_card_info d-flex justify-content-start gap-2">
+                <div class="min text-secondary"><span>2m</span></div>
+                <div class="action"><span>Action</span></div>
+                <div class="drama"><span>Pwriodic Drama</span></div>
+              </div>
+              <div class="back_card_btn d-flex justify-content-start ms-2">
+                <div class="btn">
+                  <button type="button" class="btn btn-outline-secondary d-flex gap-1">
+                    <i class="fa-solid fa-play"></i>
+                   Watch
+                  </button>
+                  <div class="shared d-flex gap-1">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    <span>Share</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="card">
+          <img src="../imgae/12.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/13.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/14.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/15.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/16.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/17.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="../imgae/18.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          stagePadding: 100,
+          loop: true,
+          center: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+
+          animateOut: "animate__fadeOut",
+          animateIn: "animate__fadeIn",
+        });
+      });
+    </script>
+
+    <script src="./dashboard.js"></script>
+  </body>
+</html>
