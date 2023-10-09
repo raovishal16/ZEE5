@@ -212,13 +212,14 @@ function onUserLogin() {
           <div class="font">
             <a href="#"> <i class="fa-solid fa-a"></i></a>
           </div>
-           <div class="login_btn d-flex gap-3">
-            <div class="user_img">
+           <div class="login_btn d-flex justify-content-start">
+            <div class="user_img d-flex">
               <img src="../imgae/profile.png" alt="" />
+              <div class="user">
+                <a href="#" class="text-light">User</a>
+              </div>
             </div>
-            <div class="user">
-              <a href="#" class="text-light fs-6">User</a>
-            </div>
+           
           </div>
           <div class="plan_btn">
             <button type="button" class="btn d-flex gap-1 buy_btn text-light">
