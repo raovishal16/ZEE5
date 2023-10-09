@@ -411,3 +411,10 @@ swiper-slide img {
   z-index: 1;
   font-size: 18px;
 }
+.offcanvas {
+  background-color: transparent;
+  border: none;
+}
+.accordion {
+  background-color: transparent;
+}
