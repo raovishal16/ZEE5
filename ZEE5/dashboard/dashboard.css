@@ -382,7 +382,7 @@ swiper-slide img {
   position: relative;
 }
 .user_img {
-  width: 40%;
+  width: 35%;
   align-items: center;
   gap: 20px;
 }
@@ -400,12 +400,14 @@ swiper-slide img {
 }
 .user a {
   color: #fff;
+  text-transform: capitalize;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
 
 .user_img:hover .user {
   left: 50%;
+  top: 20%;
   z-index: 1;
-  font-size: 20px;
+  font-size: 18px;
 }
