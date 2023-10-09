@@ -390,15 +390,22 @@ swiper-slide img {
   width: 100%;
 }
 .user {
-  font-size: 16px;
+  font-size: 10px;
+
   position: absolute;
   top: 20%;
-  left: 0;
+  left: 10%;
   z-index: -100;
   transition: 0.3s;
+}
+.user a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .user_img:hover .user {
   left: 50%;
   z-index: 1;
+  font-size: 20px;
 }

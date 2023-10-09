@@ -216,7 +216,7 @@ function onUserLogin() {
             <div class="user_img d-flex">
               <img src="../imgae/profile.png" alt="" />
               <div class="user">
-                <a href="#" class="text-light">User</a>
+                <a href="#" >User</a>
               </div>
             </div>
            
