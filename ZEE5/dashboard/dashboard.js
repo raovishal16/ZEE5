@@ -158,3 +158,148 @@ onaddCard()
 function onLogin() {
     window.location.href = "../login/login.html"
 }
+
+function onUserLogin() {
+    var nav = document.getElementById("navBar");
+    var addnav;
+    var getLoginDeatils = JSON.parse(localStorage.getItem("number"))
+    console.log("get", getLoginDeatils);
+
+    if (getLoginDeatils) {
+        addnav = ` <div class="header w-100 d-flex justify-content-between">
+        <div class="logo_menu d-flex">
+          <div class="logo">
+            <img src="../imgae/logo.jpg" alt="" />
+          </div>
+          <div class="menu">
+            <ul class="sub_menu">
+              <li><a href="#" class="demo">Home</a></li>
+              <li><a href="#" class="demo">TV&nbsp;Shows</a></li>
+              <li><a href="#" class="demo">Movies</a></li>
+              <li><a href="#" class="demo">Premium</a></li>
+              <li><a href="#" class="demo">Web&nbsp;Series</a></li>
+              <li><a href="#" class="demo">News</a></li>
+              <li><a href="#" class="demo">Edauraa</a></li>
+              <li><a href="#" class="demo">Live&nbsp;TV</a></li>
+              <li><a href="#" class="demo">Music</a></li>
+              <li>
+                <a href="#" class="demo"
+                  ><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="peta_menu">
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Kid</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Chennels</a></li>
+                  </ul>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="action_side d-flex">
+          <div class="search w-100 d-flex">
+            <div class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="Search for Movies,Shows,Channles etc."
+              class="rounded-2"
+            />
+          </div>
+          <div class="font">
+            <a href="#"> <i class="fa-solid fa-a"></i></a>
+          </div>
+           <div class="login_btn d-flex gap-3">
+            <div class="user_img">
+              <img src="../imgae/profile.png" alt="" />
+            </div>
+            <div class="user">
+              <a href="#" class="text-light fs-6">User</a>
+            </div>
+          </div>
+          <div class="plan_btn">
+            <button type="button" class="btn d-flex gap-1 buy_btn text-light">
+              <span><i class="fa-solid fa-crown"></i></span>
+              Buy&nbsp;Plans
+            </button>
+          </div>
+          <div class="bar">
+            <a href="#"> <i class="fa-solid fa-bars"></i></a>
+          </div>
+        </div>
+      </div>`
+    } else {
+        addnav = ` <div class="header w-100 d-flex justify-content-between">
+        <div class="logo_menu d-flex">
+          <div class="logo">
+            <img src="../imgae/logo.jpg" alt="" />
+          </div>
+          <div class="menu">
+            <ul class="sub_menu">
+              <li><a href="#" class="demo">Home</a></li>
+              <li><a href="#" class="demo">TV&nbsp;Shows</a></li>
+              <li><a href="#" class="demo">Movies</a></li>
+              <li><a href="#" class="demo">Premium</a></li>
+              <li><a href="#" class="demo">Web&nbsp;Series</a></li>
+              <li><a href="#" class="demo">News</a></li>
+              <li><a href="#" class="demo">Edauraa</a></li>
+              <li><a href="#" class="demo">Live&nbsp;TV</a></li>
+              <li><a href="#" class="demo">Music</a></li>
+              <li>
+                <a href="#" class="demo"
+                  ><i class="fa-solid fa-chevron-down"></i>
+                  <ul class="peta_menu">
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Kid</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Chennels</a></li>
+                  </ul>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="action_side d-flex">
+          <div class="search w-100 d-flex">
+            <div class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="Search for Movies,Shows,Channles etc."
+              class="rounded-2"
+            />
+          </div>
+          <div class="font">
+            <a href="#"> <i class="fa-solid fa-a"></i></a>
+          </div>
+          <div class="login_btn">
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              onclick="onLogin()"
+            >
+              Login
+            </button>
+          </div>
+          <div class="plan_btn">
+            <button type="button" class="btn d-flex gap-1 buy_btn text-light">
+              <span><i class="fa-solid fa-crown"></i></span>
+              Buy&nbsp;Plans
+            </button>
+          </div>
+          <div class="bar">
+            <a href="#"> <i class="fa-solid fa-bars"></i></a>
+          </div>
+        </div>
+      </div>`
+    }
+    nav.innerHTML = addnav
+
+}
+onUserLogin()

@@ -345,3 +345,44 @@ swiper-slide img {
   transform: scale(1.1);
   z-index: 100;
 }
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+  color: #fff;
+  font-size: 66px;
+  width: 95%;
+  display: flex !important;
+  justify-content: space-between;
+}
+.owl-theme .owl-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background-color: gray;
+  border: 1px solid #ccc !important;
+  padding: 5px;
+  transition: 0.3s !important;
+  opacity: 0.8 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: transparent !important;
+  padding: 6px !important;
+  opacity: 1 !important;
+}
+.owl-theme .owl-dots .owl-dot.active:hover span {
+  transform: translateY(1.1) !important;
+}
+.login_btn {
+  align-items: center;
+  cursor: pointer;
+}
+.user_img {
+  width: 30%;
+}
+.user_img img {
+  width: 100%;
+}
